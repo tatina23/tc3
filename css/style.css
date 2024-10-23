@@ -2,47 +2,84 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: system-ui;
 }
+
 body{
-    background-color: #ddeae2;
+    background-color: rgb(211, 211, 211);
 }
-header {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    align-items: center;
-}
-.iconos {
-    display: flex;               
-    justify-content: flex-end; 
-  
-              
-}
-
-.iconos svg {
-    margin-right: 2%;    
-    width: 2.5%;           
-    height: 2.5%;             
-}
-
-
 
 h1 {
-    color: #385744; 
-    font-family: "Montserrat", sans-serif;
+    color: black; 
+    font-family: system-ui;
     margin: 0.5;
 }
 
-.btn {
-    background-color: #aac8b6; 
-    color: #2c412c; 
-    padding: 0.5% 0.5%; 
-    cursor: pointer; 
-
+.providers-section h3 {
+    font-size: x-large;
+    font-weight: bold; 
+    margin-bottom: 2%; 
+    color: #333;
+    text-align: left;
+}
+.header-section {
+    background-image: url('https://wallpapers.com/images/hd/minimalist-gray-2732-x-2732-zkpkl6upjsvubmg3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
-.btn:hover {
-    background-color: #709C81; 
+.provider-box {
+    margin-bottom: 3%;
 }
+  
+.providers-section {
+    padding: 2% 0;
+}
+
+.providers-section .provider-box {
+    padding: 3%;
+    background-color: #f8f9fa;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.providers-section .provider-box:hover {
+    background-color: #cccccd;
+}
+
+@media (max-width: 768px) {
+    .header-section h2 {
+      font-size: medium;
+    }
+}
+h2{
+    color: white;
+    font-family: system-ui;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+}
+
+
+.footer {
+    background-color: #6c757d; /* Fondo gris del footer */
+    color: white; /* Color del texto */
+}
+
+.footer a {
+    color: white; /* Color de los enlaces */
+}
+
+
+
+  
+
+
 
