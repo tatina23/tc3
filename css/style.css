@@ -7,8 +7,14 @@
 
 body{
     background-color: rgb(211, 211, 211);
+    overflow-x: hidden;
 }
-
+.container-fluid, .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 h1 {
     color: white; 
     font-family: system-ui;
