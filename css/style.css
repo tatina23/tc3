@@ -13,7 +13,11 @@ h1 {
     color: black; 
     font-family: system-ui;
     margin: 0.5;
+    margin-left: 20px;
 }
+
+
+
 
 .providers-section h3 {
     font-size: x-large;
@@ -64,7 +68,8 @@ h2{
 }
 
 p{
-    font-size: larger;
+    font-size: x-large;
+   
 }
 
 
@@ -98,23 +103,23 @@ h3{
 
 
 .providers-section1 {
-    width: 100%; /* Para que ocupe todo el ancho */
-    margin: 10px; /* Márgenes pequeños alrededor de la sección */
-    text-align: center; /* Centra el texto dentro de la sección */
+    width: 100%;
+    margin: 10px; 
+    text-align: center; 
 }
 
 .row1 {
-    display: flex; /* Usar flex para la fila */
-    justify-content: center; /* Centra los elementos hijos horizontalmente */
+    display: flex; 
+    justify-content: center; 
 }
 
 .provider-box1 {
-    border: 1px solid #ccc; /* Borde alrededor de cada caja */
-    padding: 20px; /* Relleno dentro de la caja */
-    margin: 10px; /* Márgenes alrededor de las cajas */
-    width: 100%; /* O puedes ajustar a un tamaño específico */
-    max-width: 300px; /* Controla el tamaño máximo de cada caja */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar efecto de profundidad */
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin: 10px; 
+    width: 100%; 
+    max-width: 300px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 .providers-section1 .provider-box1:hover {
     background-color: #cccccd;
