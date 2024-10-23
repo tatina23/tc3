@@ -76,7 +76,20 @@ p{
 .footer a {
     color: white; /* Color de los enlaces */
 }
+.section2 {
+    margin: 5%; /* Márgenes pequeños alrededor de la sección */
+}
 
+.table {
+    border-collapse: collapse; /* Para que las celdas compartan bordes */
+    width: 100%; /* Ajusta el ancho de la tabla */
+}
+
+.table th, .table td {
+    border: 1px solid #ccc; /* Borde para las celdas */
+    padding: 8px; /* Relleno dentro de las celdas */
+    text-align: center; /* Alineación del texto */
+}
 
 
   
