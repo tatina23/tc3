@@ -10,13 +10,11 @@ body{
 }
 
 h1 {
-    color: black; 
+    color: white; 
     font-family: system-ui;
     margin: 0.5;
     margin-left: 20px;
 }
-
-
 
 
 .providers-section h3 {
@@ -130,4 +128,5 @@ h3{
     border-radius: 2%;
     text-align: center;
 }
+
 
