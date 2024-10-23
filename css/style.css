@@ -69,30 +69,60 @@ p{
 
 
 .footer {
-    background-color: #6c757d; /* Fondo gris del footer */
-    color: white; /* Color del texto */
+    background-color: #6c757d; 
+    color: white; 
 }
 
 .footer a {
-    color: white; /* Color de los enlaces */
+    color: white; 
 }
 .section2 {
-    margin: 5%; /* Márgenes pequeños alrededor de la sección */
+    margin: 5%; 
 }
 
 .table {
-    border-collapse: collapse; /* Para que las celdas compartan bordes */
-    width: 100%; /* Ajusta el ancho de la tabla */
+    border-collapse: collapse; 
+    width: 100%; 
+
 }
 
 .table th, .table td {
-    border: 1px solid #ccc; /* Borde para las celdas */
-    padding: 8px; /* Relleno dentro de las celdas */
-    text-align: center; /* Alineación del texto */
+    border: 1px solid #ccc; 
+    padding: 1%; 
+    text-align: center; 
+}
+h3{
+    text-align: left;
 }
 
 
-  
 
+.providers-section1 {
+    width: 100%; /* Para que ocupe todo el ancho */
+    margin: 10px; /* Márgenes pequeños alrededor de la sección */
+    text-align: center; /* Centra el texto dentro de la sección */
+}
 
+.row1 {
+    display: flex; /* Usar flex para la fila */
+    justify-content: center; /* Centra los elementos hijos horizontalmente */
+}
+
+.provider-box1 {
+    border: 1px solid #ccc; /* Borde alrededor de cada caja */
+    padding: 20px; /* Relleno dentro de la caja */
+    margin: 10px; /* Márgenes alrededor de las cajas */
+    width: 100%; /* O puedes ajustar a un tamaño específico */
+    max-width: 300px; /* Controla el tamaño máximo de cada caja */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar efecto de profundidad */
+}
+.providers-section1 .provider-box1:hover {
+    background-color: #cccccd;
+}
+.providers-section1 .provider-box1 {
+    padding: 3%;
+    background-color: #f8f9fa;
+    border-radius: 2%;
+    text-align: center;
+}
 
